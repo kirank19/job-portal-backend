@@ -13,6 +13,8 @@ Role-based access control (USER, ADMIN)
 
 
 
+
+
 Technologies Used:
 
 Java 17+
@@ -26,6 +28,9 @@ Spring Data JPA / Hibernate
 PostgreSQL
 
 Maven
+
+
+
 
 Database Setup:
 
@@ -42,9 +47,13 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 
+
+
 Running the Application:
 
 App runs at http://localhost:8080
+
+
 
 
 Security:
